@@ -1,2 +1,12 @@
 # Define display_board that accepts a board and prints
 # out the current state.
+board = ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "]
+def display_board(board)
+  #puts "A Tic Tac Toe Board"
+  puts "   ""|""   ""|""   "
+   puts "-----------"
+   puts "   ""|""   ""|""   "
+  puts "-----------"
+   puts "   ""|""   ""|""   "
+ end
+ print display_board(board)
